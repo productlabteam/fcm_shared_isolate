@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fcm_shared_isolate/fcm_shared_isolate.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   FcmSharedIsolate();
   runApp(MyApp());
 }
